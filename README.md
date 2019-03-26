@@ -15,7 +15,7 @@ Matching Networks for One Shot Learning Applied to Music Genre Classification
   ```
   Then run this:
   ```
-      bash Anaconda3-5.2.0-Linux-x86_64.sh
+      ./Anaconda3-5.2.0-Linux-x86_64.sh
   ```
 #### PyTorch
   Find out about PyTorch [here](https://pytorch.org/)
@@ -23,12 +23,6 @@ Matching Networks for One Shot Learning Applied to Music Genre Classification
       conda install pytorch-cpu torchvision-cpu -c pytorch
   ```
   There are options that allow for the use of [CUDA](https://developer.nvidia.com/cuda-zone) but I don't personally have NVIDIA, so, yeah not gonna use that.
-
-#### Spotipy
-  For interacting with the Spotify Web API we will use [Spotipy](https://spotipy.readthedocs.io/en/latest/)
-  ```
-      pip install spotipy
-  ```
   
 ## Resources
   - https://docs.scipy.org/doc/numpy/reference/arrays.indexing.html
