@@ -11,7 +11,6 @@ Matching Networks for One Shot Learning Applied to Music Genre Classification
   ```
   Should get this
   ```
-      Output
       09f53738b0cd3bb96f5b1bac488e5528df9906be2480fe61df40e0e0d19e3d48  Anaconda3-5.2.0-Linux-x86_64.sh
   ```
   Then run this:
