@@ -30,5 +30,12 @@ Matching Networks for One Shot Learning Applied to Music Genre Classification
   ```
       pip install spotipy
   ```
+  
+## Resources
+  - https://docs.scipy.org/doc/numpy/reference/arrays.indexing.html
+  - https://pytorch.org/tutorials/
+  - http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+  - https://arxiv.org/pdf/1606.04080v2.pdf
+  - https://developer.spotify.com/documentation/web-api/reference/object-model/
 
   
