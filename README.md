@@ -30,5 +30,5 @@ Matching Networks for One Shot Learning Applied to Music Genre Classification
   - http://colah.github.io/posts/2015-08-Understanding-LSTMs/
   - https://arxiv.org/pdf/1606.04080v2.pdf
   - https://developer.spotify.com/documentation/web-api/reference/object-model/
-
+  - https://www.musictheory.net/
   
