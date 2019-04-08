@@ -24,9 +24,39 @@ Matching Networks for One Shot Learning Applied to Music Genre Classification
   ```
   There are options that allow for the use of [CUDA](https://developer.nvidia.com/cuda-zone) but I don't personally have NVIDIA, so, yeah not gonna use that.
   
+## Env Setup
+  How to set up your environment with conda to use the Spotify API. First follow the link below to get your CLIENT_ID and CLIENT_SECRET set up with Spotify.
+  - https://developer.spotify.com/documentation/general/guides/app-settings/#register-your-app
+  Next execute the following commands to get the environment set up with conda.
+  ```
+    conda env create -f environment.yml
+    cd $CONDA_PREFIX
+    touch ./etc/conda/activate.d/env_vars.sh 
+    touch ./etc/conda/deactivate.d/env_vars.sh
+    gedit ./etc/conda/activate.d/env_vars.sh
+  ```
+  Then add the following:
+  ```
+    #!/bin/sh
+
+    export CLIENT_ID='your_info'
+    export CLIENT_SECRET='your_info'
+  ```
+  And then do this for deactivate.d:
+  ```
+     #!/bin/sh
+
+    unset CLIENT_ID
+    unset CLIENT_SECRET
+  ```
+  Then get back to wherever you cloned this repo to and type:
+  ```
+    conda activate DRP20192
+  ```
+  
 ## Future/TODO
-  Use features from the audio_analysis endpoint (timbre, pitch, etc...)
-  Use metalabels for better human readability
+  - Use features from the audio_analysis endpoint (timbre, pitch, etc...)
+  - Use metalabels for better human readability
   
 ## Resources
   - https://docs.scipy.org/doc/numpy/reference/arrays.indexing.html
