@@ -24,6 +24,10 @@ Matching Networks for One Shot Learning Applied to Music Genre Classification
   ```
   There are options that allow for the use of [CUDA](https://developer.nvidia.com/cuda-zone) but I don't personally have NVIDIA, so, yeah not gonna use that.
   
+## Future/TODO
+  Use features from the audio_analysis endpoint (timbre, pitch, etc...)
+  Use metalabels for better human readability
+  
 ## Resources
   - https://docs.scipy.org/doc/numpy/reference/arrays.indexing.html
   - https://pytorch.org/tutorials/
