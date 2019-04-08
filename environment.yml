@@ -30,13 +30,16 @@ dependencies:
   - numpy-base=1.16.2=py37hde5b4d6_0
   - olefile=0.46=py37_0
   - openssl=1.1.1b=h7b6447c_1
+  - pandas=0.24.2=py37he6710b0_0
   - pillow=5.4.1=py37h34e0f95_0
   - pip=19.0.3=py37_0
   - pycparser=2.19=py37_0
   - pyopenssl=19.0.0=py37_0
   - pysocks=1.6.8=py37_0
   - python=3.7.2=h0371630_0
+  - python-dateutil=2.8.0=py37_0
   - pytorch-cpu=1.0.1=py3.7_cpu_2
+  - pytz=2018.9=py37_0
   - readline=7.0=h7b6447c_5
   - requests=2.21.0=py37_0
   - setuptools=40.8.0=py37_0
