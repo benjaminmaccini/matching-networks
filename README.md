@@ -30,6 +30,7 @@ Matching Networks for One Shot Learning Applied to Music Genre Classification
   Next execute the following commands to get the environment set up with conda.
   ```
     conda env create -f environment.yml
+    conda activate DRP20192
     cd $CONDA_PREFIX
     touch ./etc/conda/activate.d/env_vars.sh 
     touch ./etc/conda/deactivate.d/env_vars.sh
@@ -51,6 +52,7 @@ Matching Networks for One Shot Learning Applied to Music Genre Classification
   ```
   Then get back to wherever you cloned this repo to and type:
   ```
+    conda deactivate DRP20192
     conda activate DRP20192
   ```
   
