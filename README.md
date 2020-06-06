@@ -1,5 +1,9 @@
+**Note: non-functional**
+
 # DRP20192
-Matching Networks for One Shot Learning Applied to Music Genre Classification
+Matching Networks for One Shot Learning Applied to Music Genre Classification.
+
+This was an independent research project for[UT's Spring 2019 DRP](https://web.ma.utexas.edu/users/drp/)
 
 ## Dependencies
 #### Anaconda
